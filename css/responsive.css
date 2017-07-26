@@ -1,0 +1,17 @@
+/* Responsive Stylesheet for Euforia Page Clone
+   Using Mobile First Media Queries
+
+   All styles for Tablet & Desktop Devices go inside the first media query (@min-width: 768px)
+   All styles strictly for large devices go inside the second media query (@min-width:1024px)
+
+*/
+
+@media only screen and  (min-width: 768px) {
+
+
+
+}
+
+@media only screen and  (min-width: 1024px) {
+
+}
