@@ -1,0 +1,18 @@
+/* Stylesheet for Splash Page Clone
+created by Chingu Voyage Cohorts - Owls-Team-5
+Contributors - @nmtushan - @itsdpm - @Umii
+
+All Styles that apply to Mobile Devices go here
+All Styles that would be shared by Mobile and Other Devices go here
+
+*/
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-size:18px;
+
+}
