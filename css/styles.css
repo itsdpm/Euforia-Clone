@@ -49,12 +49,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; height: 2.75em;
   padding: 3%; 
 }
- 
-.social .fa-facebook{
-  margin-left: 50%;
+
+.social ul{
+  float: right;
 }
 
-.social i{
+.social li{
+  display: inline;
   padding: 0 10px 0 10px;
 }
 
