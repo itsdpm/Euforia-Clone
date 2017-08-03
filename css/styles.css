@@ -28,11 +28,44 @@ h1, h2, h3, h4, h5, h6 {
     display:flex;
 }
 
+.brand-image{
+  border: 1px solid #00f;
+  width:100%; height: 25%;
+}
+
 .main-nav
 {
     border:1px solid #000;
-    width:25%;
-    height:200px;
+    width:25%; height:100vh;
+}
+
+.nav-list{
+  border: 1px solid #361;
+  width: 100%; height: 63%;
+}
+.social{
+  /*justify-content: flex-end;*/
+  border: 1px solid #F90;
+  width: 100%; height: 7%;
+  padding: 3%; 
+}
+
+.social ul{
+  float: right;
+}
+
+.social li{
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.fa{
+  color: red;
+}
+
+.trademark{
+  border: 1px solid #000;
+  width: 100%; height: 5%;
 }
 
 .main-content
@@ -40,5 +73,6 @@ h1, h2, h3, h4, h5, h6 {
     border:1px solid red;
     width:75%;
     height:100vh;
-    background:url("../images/eufC1.jpg") 0 0 no-repeat;
+    background:url("../images/conBack.jpg") 0 0 no-repeat;
+    background-size: cover;
 }
