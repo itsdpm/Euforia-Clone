@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #F90;
   width: 100%;
   height: 7%;
-  padding: 3%; 
+  padding: 3%;
 }
 
 .social ul{
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 .trademark{
   border: 1px solid #000;
   width: 100%;
-  height:200px;
+  height: 5%;
 }
 
 .main-content
@@ -105,5 +105,6 @@ h1, h2, h3, h4, h5, h6 {
     border:1px solid red;
     width:75%;
     height:100vh;
-    background:url("../images/eufC1.jpg") 0 0 no-repeat;
+    background:url("../images/conBack.jpg") 0 0 no-repeat;
+    background-size: cover;
 }
