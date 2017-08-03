@@ -36,7 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav
 {
     border:1px solid #000;
+<<<<<<< HEAD
     width:25%; height:100vh;
+=======
+    width:25%; height:100hv;
+>>>>>>> prayog
 }
 
 .nav-list{
@@ -70,9 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content
 {
-    border:1px solid red;
     width:75%;
     height:100vh;
+    width:75%; height:100vh;
     background:url("../images/conBack.jpg") 0 0 no-repeat;
     background-size: cover;
 }
