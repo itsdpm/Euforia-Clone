@@ -7,11 +7,111 @@
 */
 
 @media only screen and  (min-width: 768px) {
+  /* .outer-container
+  {
+      display:flex;
+      flex-direction: row;
+  }
 
+  .brand-image{
+    border: 1px solid #00f;
+    width:100%; height: 25%;
+  }
 
+  .main-nav
+  {
+      border:1px solid #000;
+      width:25%; height:100hv;
+  }
 
+  .nav-list{
+    border: 1px solid #361;
+    width: 100%; height: 63%;
+  }
+  .social{
+    border: 1px solid #F90;
+    width: 100%; height: 7%;
+    padding: 3%; 
+  }
+
+  .social ul{
+    float: right;
+  }
+
+  .social li{
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+
+  .fa{
+    color: red;
+  }
+
+  .trademark{
+    border: 1px solid #000;
+    width: 100%; height: 5%;
+  }
+
+  .main-content
+  {
+      width:75%; height:100vh;
+      background:url("../images/conBack.jpg") 0 0 no-repeat;
+      background-size: cover;
+  } */
 }
 
 @media only screen and  (min-width: 1024px) {
+  .outer-container
+  {
+      display:flex;
+      flex-direction: row;
+  }
 
+  .brand-image{
+    border: 1px solid #00f;
+    width:100%; height: 25%;
+  }
+
+  .main-nav
+  {
+      border:1px solid #000;
+      width:25%; height:100vh;
+      display: flex; flex-direction: column;
+  }
+
+  .nav-list{
+    border: 1px solid #361;
+    width: 100%; height: 63%;
+  }
+  .social{
+    border: 1px solid #F90;
+    width: 100%; height: 7%;
+    padding: 1.25%; display: block;
+  }
+
+  .social ul{
+    float: right;
+  }
+
+  .social li{
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+
+  .fa{
+    color: red;
+  }
+
+  .trademark{
+    border: 1px solid #000;
+    width: 100%; height: 5%;
+    display: block;
+  }
+
+  .main-content
+  {
+      width:75%; height:100vh;
+      background:url("../images/conBack.jpg") 0 0 no-repeat;
+      background-size: cover;
+  }
 }
