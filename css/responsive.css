@@ -7,111 +7,74 @@
 */
 
 @media only screen and  (min-width: 768px) {
-  /* .outer-container
+  .brand-image
   {
-      display:flex;
-      flex-direction: row;
+    width:20%; height: 100%;
   }
-
-  .brand-image{
-    border: 1px solid #00f;
-    width:100%; height: 25%;
-  }
-
   .main-nav
   {
-      border:1px solid #000;
-      width:25%; height:100hv;
+    width:100%; height:10vh;
+    display: flex; flex-direction: row;
   }
-
-  .nav-list{
-    border: 1px solid #361;
-    width: 100%; height: 63%;
+  .nav-list
+  {
+    width: 12%; height: 100%;
   }
-  .social{
-    border: 1px solid #F90;
-    width: 100%; height: 7%;
-    padding: 3%; 
-  }
-
-  .social ul{
-    float: right;
-  }
-
-  .social li{
-    display: inline;
-    padding: 0 10px 0 10px;
-  }
-
-  .fa{
-    color: red;
-  }
-
-  .trademark{
-    border: 1px solid #000;
-    width: 100%; height: 5%;
-  }
-
   .main-content
   {
-      width:75%; height:100vh;
-      background:url("../images/conBack.jpg") 0 0 no-repeat;
-      background-size: cover;
-  } */
+    width:100%; height:90vh;
+    background:url("../images/conBack.jpg") 0 0 no-repeat;
+    background-size: cover; background-position-x: 50%;
+  } 
 }
 
 @media only screen and  (min-width: 1024px) {
   .outer-container
   {
-      display:flex;
-      flex-direction: row;
+    display:flex;
+    flex-direction: row;
   }
-
-  .brand-image{
-    border: 1px solid #00f;
+  .brand-image
+  {
     width:100%; height: 25%;
   }
-
   .main-nav
   {
-      border:1px solid #000;
-      width:20%; height:100vh;
-      display: flex; flex-direction: column;
+    width:20%; height:100vh;
+    display: flex; flex-direction: column;
   }
-
-  .nav-list{
-    /* border: 1px solid #361; */
+  .nav-list
+  {
     width: 100%; height: 63%;
   }
-  .social{
-    /* border: 1px solid #F90; */
+  .social
+  {
     width: 100%; height: 7%;
     padding: 1.25%; display: block;
   }
-
-  .social ul{
+  .social ul
+  {
     float: right;
   }
-
-  .social li{
+  .social li
+  {
     display: inline;
     padding: 0 10px 0 10px;
   }
-
-  .fa{
-    color: red;
+  .fa
+  {
+    color: #F00;
   }
-
-  .trademark{
-    border: 1px solid #000;
+  .trademark
+  {
+    border: 1px solid #000; 
     width: 100%; height: 5%;
     display: block;
   }
-
   .main-content
   {
-      width:80%; height:100vh;
-      background:url("../images/conBack.jpg") 0 0 no-repeat;
-      background-size: cover;
+    width:80%; height:100vh;
+    background:url("../images/conBack.jpg") 0 0 no-repeat;
+    background-size: cover;
   }
 }
