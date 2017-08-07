@@ -11,14 +11,10 @@
   {
     width:20%; height: 100%;
   }
-  .main-nav
+  .sidebar-nav
   {
     width:100%; height:10vh;
     display: flex; flex-direction: row;
-  }
-  .nav-list
-  {
-    width: 12%; height: 100%;
   }
   .main-content
   {
@@ -38,14 +34,10 @@
   {
     width:100%; height: 25%;
   }
-  .main-nav
+  .sidebar-nav
   {
     width:20%; height:100vh;
     display: flex; flex-direction: column;
-  }
-  .nav-list
-  {
-    width: 100%; height: 63%;
   }
   .social
   {
@@ -61,18 +53,7 @@
     display: inline;
     padding: 0 10px 0 10px;
   }
-  .fa
-  {
-    color: #F00;
-    -webkit-transition: transform 1s;
-    -moz-transition: transform 1s;
-    transition: transform 1s;
-  }
-  .fa:hover{
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+
   .trademark
   {
     border: 1px solid #000; 
