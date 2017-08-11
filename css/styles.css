@@ -55,15 +55,25 @@ a:hover
 **************************/
 
 .outer-container{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    background: url('../images/conBack.jpg') no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
 }
 
 
 ul li
 {
-   list-style:none;
+    list-style:none;
 }
+
 
 /*************************
 ***** Nav Header Styles ***
@@ -71,17 +81,17 @@ ul li
 
 
 .sidebar-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-header
 {
     display: flex;
-    flex-direction: column;
-    align-items:flex-end;
     position:relative;
+    width:100%;
+    padding:0.5rem 0.8rem 0.5rem;
 
 }
 
@@ -93,30 +103,22 @@ ul li
     right:1px;
 }
 
-.nav-header a:hover
-{
-    transform:scale(1.1);
-    background-color:red;
-}
 
 .logo
 {
     font-weight:bold;
     font-family:'pasajeroregular', serif;
-    color:red;
-    font-size:2rem;
+    color:black;
+    font-size:1.5rem;
+    padding-top:0.5rem;
+    margin-left: 0;
 }
 
 
 .nav-header > a i
 {
-    color:black;
-}
-
-.nav-header h3
-{
-    padding-top:4rem;
-    margin-right: 1rem;
+    font-size:1.4rem;
+    color:red;
 }
 
 .nav-list {
@@ -129,34 +131,17 @@ ul li
 
 .nav-list ul
 {
-    padding:0;
-    margin:5rem 1.5rem 5rem 0;
+    display:none;
 }
 
-.nav-list ul li
-{
-    margin-bottom:1.1rem;
-    text-transform: uppercase;
-}
+
 
 .nav-list ul li > a
 {
     color:#414141;
     text-decoration:none;
     font-size:0.8rem;
-}
-
-.nav-list ul li > a:after
-{
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 0;
-    height: 10px;
-    background-color: #98004a;
-    content: "";
-    transition: width 0.2s;
+    position:relative;
 }
 
 .nav-list ul li > a:hover
@@ -164,10 +149,6 @@ ul li
     color:red;
 }
 
-.nav-list ul li > a:hover:after
-{
-    width:90%;
-}
 
 /*************************
 *** Social Icon Styles ***
@@ -175,7 +156,7 @@ ul li
 
 
 .social, .trademark{
-  display: none;
+    display: none;
 }
 
 .social{
@@ -203,13 +184,6 @@ ul li
     height: 5%;
 }
 
-.main-content{
-    width: 100%;
-    height: 85vh;
-    background: url('../images/conBack.jpg') no-repeat;
-    background-size: cover;
-    background-position-x: 50%;
-}
 
 .social-icons > li > a > i
 {
