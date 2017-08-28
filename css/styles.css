@@ -13,7 +13,7 @@ All Styles that would be shared by Mobile and Other Devices go here
 
 body {
     font-family: 'Droid Serif', serif;
-    color:#000;
+    color:#121212;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:'Oswald', sans-serif;
@@ -68,6 +68,11 @@ a:hover
     background-position-x: 50%;
 }
 
+ul
+{
+  padding:0;
+}
+
 
 ul li
 {
@@ -76,7 +81,7 @@ ul li
 
 
 /*************************
-***** Nav Header Styles ***
+*** Sidebar Nav Styles ***
 **************************/
 
 
@@ -84,6 +89,77 @@ ul li
     width: 100%;
     display: flex;
     flex-direction: row;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.sidebar-container, .slider-nav
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: #fff;
+}
+
+
+.sidebar-container
+{
+    z-index:1;
+}
+
+.slider-nav
+{
+    z-index: 100;
+    /*left:-999px;*/
+}
+
+.slider-nav .search-box
+{
+    margin:1.5rem 0 3rem;
+    padding:0 1.5rem;
+}
+
+.slider-links-container
+{
+    padding:0 1.5rem;
+}
+
+.slider-links-container ul
+{
+    margin-bottom:4rem;
+}
+
+.slider-links-container ul li
+{
+    font-size:0.9rem;
+    margin-bottom:1rem;
+}
+
+.slider-links-container ul li > p
+{
+    margin-bottom:0;
+}
+
+.slider-links-container ul li a
+{
+    color:#121212;
+}
+
+.slider-links-container ul li a:hover
+{
+    text-decoration:none;
+    color:red;
+}
+
+.slider-links-container ul li:first-of-type
+{
+    margin-bottom:1.5rem;
+}
+
+.slider-links-container ul li > i
+{
+    margin-right:0.4rem;
+    color:#aaa;
 }
 
 .nav-header
@@ -150,6 +226,8 @@ ul li
 }
 
 
+
+
 /*************************
 *** Social Icon Styles ***
 **************************/
@@ -169,7 +247,8 @@ ul li
     float: right;
 }
 
-.social li{
+.social li
+{
     display: inline;
     padding: 0 10px 0 10px;
 }
