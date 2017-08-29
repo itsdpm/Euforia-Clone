@@ -90,7 +90,7 @@ ul li
     display: flex;
     flex-direction: row;
     position: relative;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .sidebar-container, .slider-nav
@@ -107,16 +107,31 @@ ul li
     z-index:1;
 }
 
-.slider-nav
+
+
+.search-box .form-control
 {
-    z-index: 100;
-    /*left:-999px;*/
+    padding:0.8rem 1rem;
+    border-color: #f7f7f7;
 }
 
-.slider-nav .search-box
+
+.search-box .form-control::-webkit-input-placeholder
 {
-    margin:1.5rem 0 3rem;
-    padding:0 1.5rem;
+    font-size:0.8rem;
+}
+
+.search-box .form-control::-moz-placeholder
+{
+    font-size:0.8rem;
+}
+
+
+.input-group-addon
+{
+    padding:0.75rem 1rem;
+    background-color: #fff;
+    border-color: #f7f7f7;
 }
 
 .slider-links-container
@@ -168,7 +183,6 @@ ul li
     position:relative;
     width:100%;
     padding:0.5rem 0.8rem 0.5rem;
-
 }
 
 .nav-header a

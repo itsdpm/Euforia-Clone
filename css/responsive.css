@@ -20,7 +20,8 @@
 
   .main-content
   {
-    height: 85%;
+    height:100vh;
+    width:80%;
   }
 
   /*************************
@@ -62,6 +63,39 @@
     background-color:red;
   }
 
+  .sidebar-nav {
+    overflow-y:scroll;
+  }
+
+  .slider-nav
+  {
+    z-index: 100;
+    /*left:-999px;*/
+  }
+
+  .slider-nav .angle-left
+  {
+    padding-top:0.5rem;
+    color:white;
+  }
+
+  .slider-nav .search-box
+  {
+    margin:2rem 0 3rem;
+    padding:0 1.5rem;
+  }
+
+  a.angle-left-link
+  {
+    padding: 1rem 1.2rem 0.7rem 0.9rem;
+    background-color: red;
+  }
+
+  .slider-nav .search-box
+  {
+
+  }
+
   .nav-list ul
   {
     display:block;
@@ -91,14 +125,17 @@
   {
     width:100%;
   }
+
+
+
 }
 
 @media only screen and  (min-width: 1024px) {
 
   .social
   {
-    width: 100%
-  padding: 1.25%; display: block;
+    width: 100%;
+    padding: 1.25%; display: block;
   }
   .social ul
   {
@@ -116,11 +153,5 @@
     width: 100%; height: 5%;
     display: block;
   }
-  .main-content
-  {
-    height:100vh;
-    width:80%;
-    background:url("../images/conBack.jpg") 0 0 no-repeat;
-    background-size: cover;
-  }
+
 }
