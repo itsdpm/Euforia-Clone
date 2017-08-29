@@ -79,6 +79,7 @@
     color:white;
   }
 
+
   .slider-nav .search-box
   {
     margin:2rem 0 3rem;
@@ -89,6 +90,18 @@
   {
     padding: 1rem 1.2rem 0.7rem 0.9rem;
     background-color: red;
+  }
+
+  a.angle-left-link:hover
+  {
+    transform:scale(1.1);
+    background-color: white;
+
+  }
+
+  a.angle-left-link:hover > i
+  {
+    color:red;    /* change icon color to red on hover */
   }
 
   .slider-nav .search-box
