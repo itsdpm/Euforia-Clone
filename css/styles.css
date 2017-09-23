@@ -60,6 +60,8 @@ a:hover
     height:100vh;
 }
 
+/* Styles for main background image section */
+
 .main-content{
     width: 100%;
     height: 100%;
@@ -92,16 +94,21 @@ ul li
     position: relative;
     overflow: hidden;
     background-color: black;
+    
     /*transition: all 700ms ease;*/
 }
 
 .sidebar-container, .slider-nav
 {
-    position: absolute;
+    position: relative;
     width:100%;
-    height:100%;
-    background-color: #fff;
     transition: all 600ms ease-in-out;
+}
+
+.slider-nav
+{
+    display: none;
+    background-color: #fff;
 }
 
 
@@ -172,7 +179,6 @@ ul li
 .slider-links-container ul li a
 {
     color:#121212;
-
 }
 
 .slider-links-container ul li a:hover
@@ -197,15 +203,15 @@ ul li
     display: flex;
     position:relative;
     width:100%;
-    padding:0.5rem 0.8rem 0.5rem;
+    padding:0.2rem 0.8rem 0.5rem;
 }
 
 .nav-header a
 {
     transform-origin: center center;
     position:absolute;
-    padding:0.5rem 0.8rem;
-    right:1px;
+    padding:1.1rem 0.5rem 0.8rem;
+    right:5px;
 }
 
 
@@ -213,9 +219,9 @@ ul li
 {
     font-weight:bold;
     font-family:'pasajeroregular', serif;
-    color:black;
+    color:white;
     font-size:1.5rem;
-    padding-top:0.5rem;
+    padding-top:1rem;
     margin-left: 0;
 }
 
@@ -223,7 +229,7 @@ ul li
 .nav-header > a i
 {
     font-size:1.4rem;
-    color:red;
+    color:white;
 }
 
 .nav-list {
