@@ -312,22 +312,29 @@ ul li
     transform: rotate(360deg);
 }
 
+
+.main-content div
+{
+    /*position:absolute;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:inherit;
+    margin-top:1.5rem;
+}
+
 .main-content h1
 {
-	display: block; position: relative;
-	margin-top: 67%; text-align: center;
-	font-size: 36px; font-weight: bold;
-	color: #1B1A1A;
+	font-size: 3.5rem;
+    font-weight: bold;
 }
 .main-content h1 span
 {
 	display: inline-block;
-	text-align: center;
 }
 .main-content h2{
-	font-size: 27px;
-	text-align: center;
-	color: #1B1A1A;
+	font-size: 2rem;
 }
 #trade{
 	font-weight: bold;
