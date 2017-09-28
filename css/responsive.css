@@ -7,11 +7,12 @@
 */
 
 @media only screen and  (min-width: 768px) {
-
-
-
-
-
+	.main-content h1{
+		font-size: 3.25rem;
+	}
+	.main-content h2{
+		font-size: 2rem;
+	}
 }
 
 @media only screen and  (min-width: 1024px) {
@@ -54,7 +55,6 @@
   {
     font-size:2rem;
     padding-top:4rem;
-    margin-right: 1rem;
     color:red;
   }
 
@@ -180,7 +180,6 @@
 
   .social-icons li > a
   {
-      margin-right:0.2rem;
       font-size:0.8rem;
   }
 
@@ -195,7 +194,8 @@
   {
     text-transform: uppercase;
     font-size:0.7rem;
-    font-weight:300;
+		font-weight:300;
+		color: #FFF;
   }
 
   .trademark p > span
